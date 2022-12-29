@@ -1,0 +1,175 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(banner.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: inherit;
+  } 
+.manu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background:transparent;
+    height:auto;
+    width: 100vw;
+    font-family:sans-serif;
+    padding-top: 40px;
+    color: rgb(78, 76, 76);
+}
+.footer-content
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p
+{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li
+{
+    margin: 0 15px;
+}
+.socils a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.socils a i
+{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socils a:hover i
+{
+    color: rgb(0, 255, 0) ;
+}
+.footer-bottom
+{
+background: #000;
+width:100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-bottom p
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span
+{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+    
+.manu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.manu-bar ul li
+{
+    width: 96px;
+    margin: 15px;
+    padding: 10px;
+}
+.manu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.manu-bar ul li:hover
+{
+    background: #00b86d;
+    border-radius: 3px;
+}
+.manu-bar .fa
+{
+    margin-right: 8px;
+}
+.Sub-manu-1
+{
+    display: none;
+}
+.manu-bar ul li:hover .Sub-manu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin top: 15px;
+    margin-left: 15px;
+}
+.manu-bar ul li:hover .Sub-manu-1 ul
+{
+display: block;
+margin: 10px; 
+}
+.manu-bar ul li:hover .Sub-manu-1 ul li
+{
+    width: 150px;
+    padding: 05px;
+    border-bottom: 1px dotted #fff;
+    background: transperent;
+    border-radius: 0;
+    text-align: left;
+}
+.manu-bar ul li:hover .Sub-manu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.manu-bar ul li:hover .Sub-manu-1 ul li a:hover
+{
+    color: #b2ee00;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
